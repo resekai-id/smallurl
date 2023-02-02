@@ -14,8 +14,8 @@ type Form = {
 
 const CreateLink: NextPage = () => {
   const [form, setForm] = useState<Form>({ slug: "", url: "" });
-  // const url = "https://smallify.live";
-  const [url, setUrl] = useState("smallify.live");
+  // const url = "https://s.arh.my.id";
+  const [url, setUrl] = useState("s.arh.my.id");
 
   const showToastMessage = () => {
     toast("Link Copied!", {
